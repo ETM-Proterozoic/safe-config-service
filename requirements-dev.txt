@@ -9,6 +9,7 @@ isort==5.10.1
 pre-commit==2.19.0
 pytest-django==4.5.2
 responses==0.20.0
+django-environ==0.8.1
 
 # mypy and PEP 561 stubs
 mypy==0.942

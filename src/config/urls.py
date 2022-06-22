@@ -5,7 +5,7 @@ from django.urls import include, path, re_path
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 
-from config import settings
+import settings
 
 schema_view = get_schema_view(
     validators=["flex", "ssv"],
